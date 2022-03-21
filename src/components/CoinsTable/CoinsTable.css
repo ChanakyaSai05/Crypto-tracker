@@ -1,0 +1,46 @@
+.input-field {
+  width: 79.2vw;
+  height: 2.5vw;
+  margin: 4px 0px;
+  font-size: 17px;
+  padding-left: 8px;
+  background-color: #14161a;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.table-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #14161a;
+}
+table,
+th,
+td {
+  border: 1px solid wheat;
+  border-right: none;
+  border-left: none;
+  border-collapse: collapse;
+  border-top: none;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+}
+table {
+  width: 80vw;
+}
+thead {
+  background-color: gold;
+}
+th {
+  color: black;
+}
+.table-heading {
+  color: white;
+  font-size: x-large;
+  margin: 10px;
+}
